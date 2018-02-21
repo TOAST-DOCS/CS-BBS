@@ -7,17 +7,28 @@ CS & BBS 를 사용하기 위한 절차는 아래와 같습니다.
 
 ### 서비스 활성화
 
-Console에서 [Upcoming Products] > [CS&BBS]를 선택한 후 [상품이용] 버튼을 클릭하여 서비스를 활성화 시킵니다.
+Console에서 [서비스선택] > [CS&BBS]를 선택하여 서비스를 활성화 시킵니다.  
 
-![[그림 1 CS&BBS 서비스 활성화]](http://static.toastoven.net/toastcloud/static/common/img/cms_img/launching/img_14.jpg)
+![[그림 1 CS&BBS 서비스 활성화]](http://static.toastoven.net/prod_csnbbs/tutorial/Service_Enable.JPG)
 <center>[그림 1 CS&BBS 서비스 활성화]</center>
+
+### CS&BBS 콘솔 확인 
+상품을 활성화 시키면 좌측 메뉴에 Application Service > CS&BBS 메뉴가 노출됩니다. 
+Settings 메뉴를 통해 설정화면으로 접근합니다. 
 
 ### 설정
 
-서비스명을 변경하면 사용자에게 노출될 URL에 서비스명을 노출 시킬 수 있습니다.
+FAQ/문의/공지사항이 노출될 고객 접근 페이지의  URL과 브랜드 명을 설정합니다.
 
-![[그림2 서비스명 설정]](http://static.toastoven.net/toastcloud/static/common/img/cms_img/launching/img_15.jpg)
-<center>[그림2 서비스명 설정]</center>
+* 고객 접근 URL : http://toastchannel.cloud.toast.com/{서비스명}/{언어}/home
+* 브랜드명 : 서비스하려는 서비스 BI	
+  
+
+![[그림2 URL/브랜드명 설정]](http://static.toastoven.net/prod_csnbbs/tutorial/URL_Setting.JPG)
+
+<center>[그림2 URL/브랜드명 설정 ]</center>
+
+
 
 서비스할 언어를 선택하고 카테고리를 선택한 후 FAQ 컨텐츠를 등록합니다.
 

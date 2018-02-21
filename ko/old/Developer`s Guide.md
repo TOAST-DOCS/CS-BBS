@@ -207,7 +207,7 @@ GET http://toastchannel.cloud.toast.com/api/v1/services/{serviceCode}/categories
 }
 ```
 
-## FAQ 공지사항 리스트 조회하기
+## 공지사항 리스트 조회하기
 
 #### Request
 
@@ -219,12 +219,14 @@ GET http://toastchannel.cloud.toast.com/api/v1/services/{serviceCode}/notices?la
 
 [Path Parameter]
 
-|값|	타입|	설명|
-|---|---|---|
-|serviceCode|	String|	서비스코드|
-|categoryCode|	String|	카테고리코드|
-|pageNum|	Integer|	페이지|
-|pageSize|	Integer|	표시 수|
+|값|	타입|	설명|필수 여부|
+|---|---|---|---|
+|serviceCode|	String|	서비스코드| O |
+|categoryCode|	String|	카테고리코드| O |
+|pageNum|	Integer|	페이지| O |
+|pageSize|	Integer|	표시 수| O |
+|tag1|	String|	태그명 | X |
+
 
 [Response]
 
@@ -254,6 +256,9 @@ GET http://toastchannel.cloud.toast.com/api/v1/services/{serviceCode}/notices?la
                 "modifyYmdt": long,
                 "status": String,
                 "language": String,
+                "tag1":String,
+                "tag2":String,
+                "tag3":String,
                 "deleteYn": boolean,
                 "openYn": boolean
             }
@@ -303,6 +308,9 @@ GET http://toastchannel.cloud.toast.com/api/v1/services/{serviceCode}/notices/{n
                 "modifyYmdt": long,
                 "status": String,
                 "language": String,
+                "tag1":String,
+                "tag2":String,
+                "tag3":String,
                 "deleteYn": boolean,
                 "openYn": boolean
         }
